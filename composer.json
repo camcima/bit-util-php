@@ -1,0 +1,23 @@
+{
+    "name": "camcima/bit-util-php",
+    "type": "library",
+    "description": "Binary Utilities for PHP",
+    "keywords": ["binary", "util", "bit", "stream"],
+    "homepage": "https://github.com/camcima/bit-util-php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Carlos Cima",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "BitUtil": "src/"
+        }
+    }
+}

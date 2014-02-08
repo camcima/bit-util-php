@@ -1,8 +1,11 @@
 <?php
+
+namespace BitUtil;
+
 /**
  * 	a simple, fixed-size bit array, backed internally by a string
  */
-class BitArray implements ArrayAccess
+class BitArray implements \ArrayAccess
 {
 	private $data = '';
 	private $size = 0;
